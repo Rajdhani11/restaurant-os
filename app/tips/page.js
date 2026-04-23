@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import { supabase } from "@/lib/supabase";
-import { syncToCloud } from "@/lib/sync";
+import { supabase } from "@/Lib/supabase";
+import { syncToCloud } from "@/Lib/sync";
 import Link from "next/link";
 
 export default function Tips() {
